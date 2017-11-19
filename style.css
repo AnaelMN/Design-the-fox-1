@@ -1,0 +1,301 @@
+/*------------------------------------*\
+  @General
+\*------------------------------------*/
+body {
+	padding-top: 110px;
+	font-size: 14px;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #222534;
+}
+header, section, footer {
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 6.4em;
+	letter-spacing: 5px;
+	margin: 0px;
+	font-weight: 900;
+}
+h1.blue {
+	color: #56c1d3;
+}
+h2 {
+	font-size: 5em;
+	letter-spacing: 2px;
+	margin: 0px;
+	font-weight: 900;
+}
+h3 {
+	font-weight: 400;
+	font-size: 1.6em;
+	letter-spacing: 1px;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+p a {
+	text-decoration: none;
+}
+.col {
+	width: 500px;
+	height: 340px;
+	float: left;
+	vertical-align: top;
+}
+.col + .col {
+	margin-left: 130px;
+}
+.background-blue {
+	height: 1080px;
+	background: #66cdde;
+	color: #ffffff;
+}
+.background-blue h2 {
+	font-family: 'Raleway', sans-serif;
+}
+.background-blue h3 {
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+}
+.background-white {
+	height: 1080px;
+	background: #ffffff;
+	color: #a1b1bc;
+}
+.background-white h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #2f2933;
+}
+.background-white h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+
+
+/*------------------------------------*\
+  @Nav
+\*------------------------------------*/
+nav {
+	height: 110px;
+	position: fixed;
+	background: white;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+nav ul {
+	display: inline;
+}
+nav li {
+	line-height: 12px;
+	padding: 50px 25px;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 900;
+}
+nav img {
+	padding: 20px 0px;
+	display: inline-block;
+}
+
+
+
+/*------------------------------------*\
+  @Header
+\*------------------------------------*/
+header {
+	height: 980px;
+	background: url("image-background-1.png") no-repeat;
+	background-size: cover;
+}
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+}
+header h3 {
+	font-size: 2.9em;
+	line-height: 0em;
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+}
+
+
+
+/*------------------------------------*\
+  @Seccion creative-style
+\*------------------------------------*/
+#creative-style {
+	height: 510px;
+	background: #ffffff;
+}
+#creative-style h2 {
+	font-size: 2.5em;
+}
+#creative-style h3 {
+	font-family: 'Playfair Display', serif;
+	color: #29d9c3;
+}
+#creative-style p {
+	font-family: 'Playfair Display', serif;
+	color: #a1b1bc;
+	font-size: 2em;	
+}
+
+
+
+/*------------------------------------*\
+  @Seccion you-will-love-fox
+\*------------------------------------*/
+#you-will-love-fox {
+	height: 980px;
+	background: #c3cccb;
+}
+#you-will-love-fox h2 {
+	font-size: 6em;
+	color: #ffffff;
+}
+
+
+
+/*------------------------------------*\
+  @Seccion the-fox
+\*------------------------------------*/
+#the-fox {
+	height: 960px;
+	background: #222534;
+}
+#the-fox h2 {
+	font-size: 6em;
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+}
+#the-fox h3 {
+	font-size: 2.9em;
+	line-height: 0em;
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+}
+#the-fox p {
+	color: #29d9c2;
+}
+#the-fox .dot {
+	font-family: 'Lato', serif;
+	color: #29d9c3;
+}
+#the-fox h2 + h3 {
+	margin: 0px;
+	font-size: 2em;
+	margin-bottom: 2.5em;
+}
+#the-fox h3 {
+	line-height: .5em;
+}
+
+
+
+/*------------------------------------*\
+  @Footer
+\*------------------------------------*/
+footer {
+	height: 115px;
+	background: #1a1c28;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+footer > p {
+	font-weight: 700;
+}
+footer p {
+	margin: 0px;
+	color: #a1b1bc;
+}
+.heart {
+	font-size: 1.2em;
+	padding: 0px 5px;
+}
+
+
+
+/*------------------------------------*\
+  @Botones
+\*------------------------------------*/
+.btn {
+	font-family: 'Raleway', sans-serif;
+	color: #222533;
+	border: 2px solid #ffffff;
+	background: #ffffff;
+	display: inline-block;
+	padding: 25px 45px;
+	margin-top: 10px;
+	margin-right: 20px;
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-decoration: none;
+	/*font-weight: 900;*/
+}
+.btn-trans-dark {
+	background: transparent;
+	border-color: #2f2933;
+	color: #2f2933;
+}
+.btn-trans-light {
+	background: transparent;
+	color: #ffffff;
+}
+.btn-dark {
+	border-color: #2f2933;
+	background: #2f2933;
+	color: #ffffff;
+}
+.btn-light {
+	border-color: #29d9c2;
+	background: #29d9c2;
+	color: #ffffff;
+}
+.btn-rounded {
+	border-radius: 5px;
+}
+
+
+
+/*------------------------------------*\
+  @Ayudas
+\*------------------------------------*/
+.center {
+	text-align: center;
+}
+.white {
+	color: #ffffff;
+}
+.blue {
+	color: #04bfbf;
+}
+.bold-900 {
+	font-weight: 900;
+}
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+	/* position: relative; */
+	/* top: 50%; */
+	/* transform: translateY(-50%); */
+}
+.padding-top-380 {
+	padding-top: 380px;
+}
+.padding-top-350 {
+	padding-top: 350px;
+}
+.padding-top-280 {
+	padding-top: 280px;
+}
+.padding-top-130 {
+	padding-top: 130px;
+}
+.padding-top-25 {
+	padding-top: 25px;
+}
